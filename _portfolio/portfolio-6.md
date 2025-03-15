@@ -1,9 +1,18 @@
 ---
 title: "Thesis Graduation"
-excerpt: "This thesis proposes the Beats-ODE model, which combines N-Beats and MTGODE to enhance traffic forecasting by learning temporal and spatial features through ODE. Additionally, the model integrates an explanation mechanism based on mask optimization, improving transparency and reliability.<br/><img src='/images/BeatsODE.png'>"
+# excerpt: "This thesis proposes the Beats-ODE model, which combines N-Beats and MTGODE to enhance traffic forecasting by learning temporal and spatial features through ODE. Additionally, the model integrates an explanation mechanism based on mask optimization, improving transparency and reliability.<br/><img src='/images/BeatsODE.png'>"
+excerpt: |
+    - **Purpose:** Traffic forecasting is the process of estimating traffic flow on routes and intersections in a transportation system. The goal
+        of this prediction is to provide detailed and accurate information about traffic conditions, helping urban managers and drivers make
+        smart decisions.
+    - **Description:** Proposed a Traffic Forecasting Beats-ODE model with N-Beats blocks and MTGODE sublayers integrated into the
+        model to improve traffic prediction. Stacked convolutional ODE blocks are used to learn temporal features, and graph convolutional
+        ODE blocks are applied to learn spatial features. The use of ODE helps information flow from one layer to another continuously,
+        increasing the accuracy of the model.
+    - **Technologies:** Python, PyTorch, Scikit-learn, Numpy, Pandas, Folium, Matplotlib
 collection: portfolio
 ---
-## An Explainable Model for Traffic Forecasting on Spatio-Temporal Data
+## An Interpretable Model for Spatio-Temporal Traffic Forecasting
 ### Abstract:
 Traffic forecasting is the process of estimating traffic flow on roads and intersections within a transportation system. The goal of this prediction is to provide detailed and accurate information about traffic conditions, helping urban management and drivers make informed decisions. In the past decade, traffic forecasting methods have rapidly evolved, especially with the expansion of artificial intelligence. Additionally, Explainable Artificial Intelligence (XAI) aims to address the challenge of making machine learning models more transparent and interpretable. In the context of traffic forecasting, model transparency is crucial for enhancing trust among the community and users. XAI in traffic prediction enables interpretability of the modeling and forecasting processes, helping users understand why a specific prediction is made.
 

@@ -22,21 +22,20 @@ Information Technology but also provides me with the opportunity to actively con
 # Work Experience
 
 ### AIAIVN - *Machine Learning Engineer - Fulltime* (08/2024 - Present)  
-**Description**: (Updating...)  
-**Responsibilities**: (Updating...)
+- **Description**: (Updating...)  
+- **Responsibilities**: (Updating...)
 
 ---
 
 ### Energy Solutions - *Software Engineer - Intern* (03/2024 - 06/2024)  
-**Description**: Developed a gas consumption management system for use in Japan, generating detailed reports on monthly and yearly gas consumption.  
-**Responsibilities**:  
-- Participated in front-end development.  
-- Modified and created new system functions based on requirements.  
-- Developed and maintained the database.  
-
-**Technologies**: VB.Net, SQL, C#, HTML, CSS, JavaScript  
-**Tool Management**: Backlog  
-**Team size**: 10  
+- **Description**: Developed a gas consumption management system for use in Japan, generating detailed reports on monthly and yearly gas consumption.  
+- **Responsibilities**:  
+  - Participated in front-end development.  
+  - Modified and created new system functions based on requirements.  
+  - Developed and maintained the database.  
+- **Technologies**: VB.Net, SQL, C#, HTML, CSS, JavaScript  
+- **Tool Management**: Backlog  
+- **Team size**: 10  
 
 ---
 

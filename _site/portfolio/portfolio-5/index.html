@@ -37,7 +37,7 @@
 
 
 
-  <meta property="og:description" name="description" content="">
+  <meta property="og:description" name="description" content="  Purpose: Enhancing existing data by supplementing additional information and images to improve chatbot training data for more accurate and informative responses.  Description:  This project enriches data by leveraging Bing Search to fetch supplementary text and images based on category-specific keywords (e.g., landmark names, operating hours, etc.). Once the relevant content is retrieved, the output is stored in a database, ensuring efficient data management and seamless integration into subsequent processes.  Technologies:  Python, Airflow, MongoDB, Docker, ReactJS, Azure (ContainerApp)">
 
 
 
@@ -130,7 +130,10 @@
           <li class="masthead__menu-item masthead__menu-item--lg"><a href="http://localhost:4000/">General Information</a></li>
           
             
-            <li class="masthead__menu-item"><a href="http://localhost:4000/portfolio/">Portfolio</a></li>
+            <li class="masthead__menu-item"><a href="http://localhost:4000/portfolio/">Project</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="http://localhost:4000/experience/">Work Experience</a></li>
           
             
             <li class="masthead__menu-item"><a href="http://localhost:4000/cv/">CV</a></li>
@@ -245,7 +248,7 @@
 
   <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
     <meta itemprop="headline" content="Data Pipeline for Data Enrichment">
-    <meta itemprop="description" content="">
+    <meta itemprop="description" content="  Purpose: Enhancing existing data by supplementing additional information and images to improve chatbot training data for more accurate and informative responses.  Description:  This project enriches data by leveraging Bing Search to fetch supplementary text and images based on category-specific keywords (e.g., landmark names, operating hours, etc.). Once the relevant content is retrieved, the output is stored in a database, ensuring efficient data management and seamless integration into subsequent processes.  Technologies:  Python, Airflow, MongoDB, Docker, ReactJS, Azure (ContainerApp)">
     
     
 
@@ -262,7 +265,96 @@
       
 
       <section class="page__content" itemprop="text">
-        
+        <!-- ## **Description**  
+In many applications, chatbot performance heavily depends on the richness and accuracy of its training data. This project aims to **expand and refine** the dataset by leveraging **Bing Search** to fetch relevant text and images based on predefined **category-specific keywords** (e.g., landmark names, operating hours, historical significance, etc.).   -->
+<h2 id="project-context"><strong>Project Context</strong></h2>
+<ul>
+  <li><strong>Company Project</strong>: This project is developed as part of <strong>AIAIVN</strong>. It focuses on building an efficient data enrichment pipeline for chatbot training using various data sources.</li>
+</ul>
+
+<h2 id="acchitecture"><strong>Acchitecture</strong></h2>
+<p><img src="/images/pipeline_enrich_data.png" /></p>
+
+<h2 id="description"><strong>Description</strong></h2>
+
+<p>The data enrichment process follows these key steps:</p>
+
+<ol>
+  <li><strong>Keyword-Based Data Retrieval:</strong>
+    <ul>
+      <li>Define structured keyword queries for different categories.</li>
+      <li>Use <strong>Bing Search API</strong> to collect relevant text and images.</li>
+    </ul>
+  </li>
+  <li><strong>Data Processing and Validation:</strong>
+    <ul>
+      <li>Extract meaningful content from search results.</li>
+      <li>Filter out irrelevant or duplicate information.</li>
+      <li>Validate retrieved data to ensure accuracy and reliability.</li>
+    </ul>
+  </li>
+  <li><strong>Storage and Integration:</strong>
+    <ul>
+      <li>Store the enriched data in <strong>MongoDB</strong> for efficient retrieval.</li>
+      <li>Maintain a structured database to support various downstream applications.</li>
+    </ul>
+  </li>
+  <li><strong>Automation &amp; Scalability:</strong>
+    <ul>
+      <li>Implement <strong>Apache Airflow</strong> to schedule and manage data retrieval workflows.</li>
+      <li>Containerize the pipeline using <strong>Docker</strong> for seamless deployment.</li>
+      <li>Integrate with a <strong>ReactJS-based frontend</strong> to facilitate data monitoring and validation.</li>
+    </ul>
+  </li>
+</ol>
+
+<p>By automating the data enrichment process, this pipeline ensures <strong>scalability, consistency, and efficiency</strong> in maintaining high-quality datasets for chatbot training. The enriched data enables chatbots to deliver <strong>more informative responses</strong>, improving user engagement and satisfaction.</p>
+
+<h2 id="responsibilities"><strong>Responsibilities</strong></h2>
+
+<p><strong>Crawling Data</strong></p>
+<ul>
+  <li>Collect data from various sources, including existing datasets and Bing Search API.</li>
+  <li>Implement automated scripts to fetch text and images based on predefined keywords.</li>
+  <li>Ensure efficient and scalable data retrieval mechanisms.</li>
+</ul>
+
+<p><strong>Cleaning Data</strong></p>
+<ul>
+  <li>Preprocess the collected data by removing duplicates, irrelevant content, and noise.</li>
+  <li>Standardize formats for consistency across different data sources.</li>
+  <li>Validate extracted information to ensure accuracy and reliability.</li>
+</ul>
+
+<p><strong>Handling Data Enrichment</strong></p>
+<ul>
+  <li>Integrate supplementary information into the existing dataset.</li>
+  <li>Store the processed data in a well-organized <strong>MongoDB</strong> database.</li>
+</ul>
+
+<p><strong>Building a Basic UI</strong></p>
+<ul>
+  <li>Develop a simple <strong>ReactJS-based frontend</strong> for data visualization and validation.</li>
+</ul>
+
+<h2 id="technology-stack"><strong>Technology Stack</strong></h2>
+<ul>
+  <li><strong>Python</strong> – Core language for data processing and API integration.</li>
+  <li><strong>Bing Search API</strong> – Source for retrieving supplementary text and images.</li>
+  <li><strong>MongoDB</strong> – Database for storing enriched data.</li>
+  <li><strong>Airflow</strong> – Workflow automation and task scheduling.</li>
+  <li><strong>Docker</strong> – Containerization for deployment flexibility.</li>
+  <li><strong>ReactJS</strong> – Frontend for verifying data.</li>
+  <li><strong>Azure (ContainerApp)</strong>: Platform for hosting containers.</li>
+</ul>
+
+<h2 id="tool-management-and-team-size"><strong>Tool Management and Team Size</strong>:</h2>
+<ul>
+  <li><strong>Tool Management</strong>: Github</li>
+  <li><strong>Team Size</strong>: 3</li>
+</ul>
+
+
 
         
 
@@ -298,7 +390,7 @@
 
   <nav class="pagination">
     
-      <a href="http://localhost:4000/portfolio/portfolio-4/" class="pagination--pager" title="XStar Pipeline
+      <a href="http://localhost:4000/portfolio/portfolio-4/" class="pagination--pager" title="XStar
 ">Previous</a>
     
     
