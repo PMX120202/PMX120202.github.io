@@ -8,9 +8,12 @@ redirect_from:
 ---
 
 {% include base_path %}
+# OBJECTIVE
+I aspire to pursue a job opportunity in a competitive environment, one that not only demands continuous growth and exploration in the field of
+Information Technology but also provides me with the opportunity to actively contribute to the success and advancement of the organization.
 
 # Education
-- **M.S. in Computer Science**, University of Science, *2025-2027*
+- **M.S. in Computer Science**, (Updating...)
 - **B.S. in Data Science**, University of Science, *2020-2024*
   - **Major**: Data Science
   - **GPA**: 8.22/10
@@ -18,13 +21,13 @@ redirect_from:
 
 # Work Experience
 
-### AIAIVN - *Machine Learning Engineer* (08/2024 - Present)  
+### AIAIVN - *Machine Learning Engineer - Fulltime* (08/2024 - Present)  
 **Description**: (Updating...)  
 **Responsibilities**: (Updating...)
 
 ---
 
-### Energy Solutions - *Software Engineer Intern* (03/2024 - 06/2024)  
+### Energy Solutions - *Software Engineer - Intern* (03/2024 - 06/2024)  
 **Description**: Developed a gas consumption management system for use in Japan, generating detailed reports on monthly and yearly gas consumption.  
 **Responsibilities**:  
 - Participated in front-end development.  
@@ -38,11 +41,11 @@ redirect_from:
 ---
 
 # Skills
-- **Languages**: English (VSTEP-Level 4, TOEIC-700), Vietnamese (Native)
-- **Programming Languages**: Python, HTML, CSS, JavaScript, SQL, C/C++, VB.Net
+- **Languages**: English, Vietnamese
+- **Programming Languages**: Python, SQL, HTML, CSS, JavaScript
 - **Frameworks and Libraries**:  
   - **Frameworks**: FastAPI  
-  - **Libraries**: NumPy, Pandas, Matplotlib, Seaborn, PyTorch, Scikit-learn, Pyspark, Selenium, BeautifulSoup  
+  - **Libraries**: NumPy, Pandas, Matplotlib, PyTorch, Scikit-learn, Pyspark, Selenium, BeautifulSoup  
 - **Database & Tools**:  
   - **Databases**: MongoDB, Microsoft SQL Server, PostgreSQL, SQLite  
   - **Tools**: Microsoft Office, Power BI, Tableau  

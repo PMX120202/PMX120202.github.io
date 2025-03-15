@@ -20,3 +20,14 @@ I'm a Data Engineer / Machine Learning Engineer with a strong passion for data-d
 🔍 When I'm not coding or analyzing data, you’ll find me exploring new technologies, reading AI research papers, or sharing knowledge with the tech community.
 
 Let’s connect, learn, and build something amazing together! 🚀
+
+
+<table style="width:100%;">
+  <tr>
+    <td>
+      <p align="center"> 
+        <img src="https://github.com/CodexploreRepo/CodexploreRepo/blob/master/.github/assets/coding.gif?raw=true" alt="dev" width="100%"/>
+      </p>
+    </td>
+  </tr>
+</table>
