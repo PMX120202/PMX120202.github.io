@@ -7,7 +7,7 @@
 # server process.
 
 # Basic Site Settings
-locale                   : "en-US"
+locale                   : "vi-VN"
 site_theme               : "default"
 title                    : "General Information"
 title_separator          : "-"

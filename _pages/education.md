@@ -1,0 +1,22 @@
+---
+layout: archive
+title: ""
+permalink: /education/
+author_profile: true
+redirect_from:
+  - /resume
+---
+
+{% include base_path %}
+
+# Education
+- **M.S. in Computer Science**, (Updating...)
+- **B.S. in Data Science**, University of Science, *2020-2024*
+  - **Major**: Data Science
+  - **GPA**: 8.22/10
+  - **Graduation Thesis**: 9.5/10
+
+<!-- <div style="display: flex; justify-content: center; gap: 10px; margin-left: 80px;">
+  <img src="/images/certification.jpg" alt="Certification" width="70%" height="auto">
+  <img src="/images/cover_cer.jpg" alt="Certification" width="45%" height="auto">
+</div> -->

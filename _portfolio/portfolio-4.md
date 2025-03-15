@@ -1,21 +1,22 @@
 ---
-title: "XStar"
+title: "Pipeline and Chatbot (Stock Field)"
 excerpt: |
-    - **Description:** The **XSTSR project** aims to automate the aggregation of broker data from multiple sources. It builds an automated pipeline to collect, process, and store data efficiently. Additionally, multi-agent systems are integrated to answer customer queries based on provided data and directly query the database for real-time information retrieval.
+    - **Description:** The project aims to automate the aggregation of broker data from multiple sources. It builds an automated pipeline to collect, process, and store data efficiently. Additionally, multi-agent systems are integrated to answer customer queries based on provided data and directly query the database for real-time information retrieval.
     - **Technologies:** Python, Docker, Airflow, PostgreSQL, GCP (Cloud Storage, Locker, Cloud Composer), Azure (ContainerApp)
 collection: portfolio
 ---
 
 ## **Project Context**
-- **Company Project**: This project is developed as part of **AIAIVN**. It focuses on building an efficient data enrichment pipeline for chatbot training using various data sources.
+- **Company Project**: This project is developed at **AIAIVN**, focusing on building an efficient data pipeline for automation and a multi-agent chatbot system.
 
 ## **Acchitecture**
 - **Pipeline**
 <img src='/images/xstar_pipeline.png'>
 
 - **Chatbot**
+<img src='/images/multi_agent.png'>
 
-## **Responsibilities**  
+## **Description**  
 The project includes the following key processes:
 1. **Data Collection & Aggregation**: Automatically pulling data from various broker platforms.
 2. **Data Storage**: Organizing the collected data into a structured database.
