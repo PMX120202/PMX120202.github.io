@@ -10,8 +10,8 @@ redirect_from:
 {% include base_path %}
 
 # Education
-- **M.S. in Computer Science**, (Updating...)
-- **B.S. in Data Science**, University of Science, *2020-2024*
+- **Master of Science in Computer Science**, (Updating...)
+- **Bachelor of Science at University of Science**, *2020-2024*
   - **Major**: Data Science
   - **GPA**: 8.22/10
   - **Graduation Thesis**: 9.5/10

@@ -12,9 +12,14 @@ redirect_from:
 # Work Experience
 
 ## AIAIVN - *Machine Learning Engineer - Full-time* (08/2024 - Present)  
-- **Description**: (Updating...)  
-- **Responsibilities**: (Updating...)
-- **Technologies**: (Updating...)
+- **Description**: Participate in developing backend systems, building automated data processing pipelines, and developing intelligent chatbots for the tourism, education, and stock market sectors.
+- **Responsibilities**: 
+  - Design, implement, and optimize data processing pipelines to ensure efficiency and scalability.
+  - Develop and enhance smart chatbots to support customers in the tourism, education, and stock market industries.
+  - Build and maintain backend systems, ensuring stable integration with related services.
+  - Collaborate with technical and business teams to optimize technological solutions.
+  - Carry out tasks as assigned by superiors, ensuring progress and quality of work.
+- **Technologies**: Python (FastAPI, Numpy, Pandas), Cloud Service (GCP, Azure), Apeche Airflow, Docker, MongoDB, PostgreSQL.
 
 ---
 
@@ -25,7 +30,7 @@ redirect_from:
   - Implemented new features and modified existing ones based on customer requirements, improving system flexibility and functionality.
   - Developed and maintained SQL databases, ensuring efficient data storage and retrieval.
   - Collaborated closely with cross-functional teams to integrate front-end and back-end systems seamlessly.
-- **Technologies**: VB.Net, SQL, C#, HTML, CSS, JavaScript  
+- **Technologies**: VB.Net, SQL, C#, HTML, CSS, JavaScript.
 
 ---
 

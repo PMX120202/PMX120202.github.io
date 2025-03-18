@@ -22,7 +22,7 @@ theme: jekyll-theme-minimal
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.jpg"
+  avatar           : "profile.png"
   name             : "Xuan Phan"
   bio              : "🔥There's only one version – it's you."
   location         : "Ho Chi Minh City"
