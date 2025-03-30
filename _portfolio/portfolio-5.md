@@ -1,5 +1,5 @@
 ---
-title: "Data Pipeline for Data Enrichment"
+title: "SmartChat: AI Chatbot for Tourism & Education"
 # excerpt: " <br/><img src='/images/pipeline_enrich_data.png'>"
 excerpt: |
     - **Purpose:** Enhancing existing data by supplementing additional information and images to improve chatbot training data for more accurate and informative responses.  
@@ -40,11 +40,15 @@ The data enrichment process follows these key steps:
    - Containerize the pipeline using **Docker** for seamless deployment.  
    - Integrate with a **ReactJS-based frontend** to facilitate data monitoring and validation.  
 
+5. **Built chatbot:**
+   - Developed an agent with RAG to improve chatbot retrieval and response generation.
+
+
 By automating the data enrichment process, this pipeline ensures **scalability, consistency, and efficiency** in maintaining high-quality datasets for chatbot training. The enriched data enables chatbots to deliver **more informative responses**, improving user engagement and satisfaction.  
 
 ## **Responsibilities**  
 
-**Crawling Data**  
+<!-- **Crawling Data**  
    - Collect data from various sources, including existing datasets and Bing Search API.  
    - Implement automated scripts to fetch text and images based on predefined keywords.  
    - Ensure efficient and scalable data retrieval mechanisms.  
@@ -59,20 +63,26 @@ By automating the data enrichment process, this pipeline ensures **scalability, 
    - Store the processed data in a well-organized **MongoDB** database.  
 
 **Building a Basic UI**  
-   - Develop a simple **ReactJS-based frontend** for data visualization and validation.  
+   - Develop a simple **ReactJS-based frontend** for data visualization and validation.   -->
+- Designed database architecture, system infrastructure, and documentation for the chatbot.
+- Developed an agent with RAG to improve chatbot retrieval and response generation.
+- Assisted in deploying applications to staging and production environments.
+- Implemented a data enrichment pipeline and a basic UI for data verification.
 
 
-## **Technology Stack**  
-- **Python** – Core language for data processing and API integration.  
+## **Technology Stack** 
+<!-- - **Python** – Core language for data processing and API integration.  
 - **Bing Search API** – Source for retrieving supplementary text and images.  
 - **MongoDB** – Database for storing enriched data.  
 - **Airflow** – Workflow automation and task scheduling.  
 - **Docker** – Containerization for deployment flexibility.  
 - **ReactJS** – Frontend for verifying data.  
-- **Azure (ContainerApp)**: Platform for hosting containers. 
+- **Azure (ContainerApp)**: Platform for hosting containers.  -->
+- Python, Bing Search API, MongoDB, Airflow, Docker, ReactJs, Azure (Container App, Cloud Storage, AI Search, Azure OpenAI)
+
  
 ## **Tool Management and Team Size**:
-- **Tool Management**: Github
-- **Team Size**: 3
+- **Tool Management**: Jira, Github
+- **Team Size**: 4
 
 
