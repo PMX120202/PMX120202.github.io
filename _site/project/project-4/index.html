@@ -19,7 +19,7 @@
 
 
 
-<title>SmartChat: AI Chatbot for Tourism &amp; Education - General Information</title>
+<title>InsightFund AI: Data Lakehouse &amp; Chatbot for Investment Funds - General Information</title>
 
 
 
@@ -29,15 +29,15 @@
 
 <meta property="og:locale" content="vi-VN">
 <meta property="og:site_name" content="General Information">
-<meta property="og:title" content="SmartChat: AI Chatbot for Tourism &amp; Education">
+<meta property="og:title" content="InsightFund AI: Data Lakehouse &amp; Chatbot for Investment Funds">
 
 
-  <link rel="canonical" href="http://localhost:4000/portfolio/portfolio-5/">
-  <meta property="og:url" content="http://localhost:4000/portfolio/portfolio-5/">
+  <link rel="canonical" href="http://localhost:4000/project/project-4/">
+  <meta property="og:url" content="http://localhost:4000/project/project-4/">
 
 
 
-  <meta property="og:description" name="description" content="  Purpose: Enhancing existing data by supplementing additional information and images to improve chatbot training data for more accurate and informative responses.  Description:  This project enriches data by leveraging Bing Search to fetch supplementary text and images based on category-specific keywords (e.g., landmark names, operating hours, etc.). Once the relevant content is retrieved, the output is stored in a database, ensuring efficient data management and seamless integration into subsequent processes.  Technologies:  Python, Airflow, MongoDB, Docker, ReactJS, Azure (ContainerApp)">
+  <meta property="og:description" name="description" content="  Description: The project aims to automate the aggregation of broker data from multiple sources. It builds an automated pipeline to collect, process, and store data efficiently. Additionally, multi-agent systems are integrated to answer customer queries based on provided data and directly query the database for real-time information retrieval.  Technologies: Python, Docker, Airflow, PostgreSQL, GCP (Cloud Storage, Locker, Cloud Composer), Azure">
 
 
 
@@ -136,7 +136,7 @@
             <li class="masthead__menu-item"><a href="http://localhost:4000/experience/">Professional Experience</a></li>
           
             
-            <li class="masthead__menu-item"><a href="http://localhost:4000/portfolio/">Project</a></li>
+            <li class="masthead__menu-item"><a href="http://localhost:4000/project/">Project</a></li>
           
             
             <li class="masthead__menu-item"><a href="http://localhost:4000/skill/">Skills</a></li>
@@ -218,8 +218,6 @@
       <!-- Font Awesome icons / Social media -->
       
       
-        <li><a href="https://www.facebook.com/minh.xuan.phan.729800"><i class="fab fa-fw fa-facebook-f icon-pad-right" aria-hidden="true"></i>Facebook</a></li>
-      
             
       
                   
@@ -253,15 +251,15 @@
 
 
   <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
-    <meta itemprop="headline" content="SmartChat: AI Chatbot for Tourism &amp; Education">
-    <meta itemprop="description" content="  Purpose: Enhancing existing data by supplementing additional information and images to improve chatbot training data for more accurate and informative responses.  Description:  This project enriches data by leveraging Bing Search to fetch supplementary text and images based on category-specific keywords (e.g., landmark names, operating hours, etc.). Once the relevant content is retrieved, the output is stored in a database, ensuring efficient data management and seamless integration into subsequent processes.  Technologies:  Python, Airflow, MongoDB, Docker, ReactJS, Azure (ContainerApp)">
+    <meta itemprop="headline" content="InsightFund AI: Data Lakehouse &amp; Chatbot for Investment Funds">
+    <meta itemprop="description" content="  Description: The project aims to automate the aggregation of broker data from multiple sources. It builds an automated pipeline to collect, process, and store data efficiently. Additionally, multi-agent systems are integrated to answer customer queries based on provided data and directly query the database for real-time information retrieval.  Technologies: Python, Docker, Airflow, PostgreSQL, GCP (Cloud Storage, Locker, Cloud Composer), Azure">
     
     
 
     <div class="page__inner-wrap">
       
         <header>
-          <h1 class="page__title" itemprop="headline">SmartChat: AI Chatbot for Tourism &amp; Education
+          <h1 class="page__title" itemprop="headline">InsightFund AI: Data Lakehouse &amp; Chatbot for Investment Funds
 </h1>
           
         
@@ -271,99 +269,58 @@
       
 
       <section class="page__content" itemprop="text">
-        <!-- ## **Description**  
-In many applications, chatbot performance heavily depends on the richness and accuracy of its training data. This project aims to **expand and refine** the dataset by leveraging **Bing Search** to fetch relevant text and images based on predefined **category-specific keywords** (e.g., landmark names, operating hours, historical significance, etc.).   -->
-<h2 id="project-context"><strong>Project Context</strong></h2>
+        <h2 id="project-context"><strong>Project Context</strong></h2>
 <ul>
-  <li><strong>Company Project</strong>: This project is developed as part of <strong>AIAIVN</strong>. It focuses on building an efficient data enrichment pipeline for chatbot training using various data sources.</li>
+  <li><strong>Company Project</strong>: This project is developed at <strong>AIAIVN</strong>, focusing on building an efficient data pipeline for automation and a multi-agent chatbot system.</li>
 </ul>
 
 <h2 id="acchitecture"><strong>Acchitecture</strong></h2>
-<p><img src="/images/pipeline_enrich_data.png" /></p>
+<ul>
+  <li>
+    <p><strong>Pipeline</strong>
+<img src="/images/xstar_pipeline.png" /></p>
+  </li>
+  <li>
+    <p><strong>Chatbot</strong>
+<img src="/images/multi_agent.png" /></p>
+  </li>
+</ul>
 
 <h2 id="description"><strong>Description</strong></h2>
-
-<p>The data enrichment process follows these key steps:</p>
-
+<p>The project includes the following key processes:</p>
 <ol>
-  <li><strong>Keyword-Based Data Retrieval:</strong>
-    <ul>
-      <li>Define structured keyword queries for different categories.</li>
-      <li>Use <strong>Bing Search API</strong> to collect relevant text and images.</li>
-    </ul>
-  </li>
-  <li><strong>Data Processing and Validation:</strong>
-    <ul>
-      <li>Extract meaningful content from search results.</li>
-      <li>Filter out irrelevant or duplicate information.</li>
-      <li>Validate retrieved data to ensure accuracy and reliability.</li>
-    </ul>
-  </li>
-  <li><strong>Storage and Integration:</strong>
-    <ul>
-      <li>Store the enriched data in <strong>MongoDB</strong> for efficient retrieval.</li>
-      <li>Maintain a structured database to support various downstream applications.</li>
-    </ul>
-  </li>
-  <li><strong>Automation &amp; Scalability:</strong>
-    <ul>
-      <li>Implement <strong>Apache Airflow</strong> to schedule and manage data retrieval workflows.</li>
-      <li>Containerize the pipeline using <strong>Docker</strong> for seamless deployment.</li>
-      <li>Integrate with a <strong>ReactJS-based frontend</strong> to facilitate data monitoring and validation.</li>
-    </ul>
-  </li>
-  <li><strong>Built chatbot:</strong>
-    <ul>
-      <li>Developed an agent with RAG to improve chatbot retrieval and response generation.</li>
-    </ul>
-  </li>
+  <li><strong>Data Collection &amp; Aggregation</strong>: Automatically pulling data from various broker platforms.</li>
+  <li><strong>Data Storage</strong>: Organizing the collected data into a structured database.</li>
+  <li><strong>Chatbot with Multi-Agent</strong>: Allowing customer queries to be answered by accessing the database in real-time.</li>
+  <li><strong>Cloud Infrastructure</strong>: Ensuring scalability and accessibility of the system through GCP and Azure cloud services.</li>
 </ol>
 
-<p>By automating the data enrichment process, this pipeline ensures <strong>scalability, consistency, and efficiency</strong> in maintaining high-quality datasets for chatbot training. The enriched data enables chatbots to deliver <strong>more informative responses</strong>, improving user engagement and satisfaction.</p>
-
 <h2 id="responsibilities"><strong>Responsibilities</strong></h2>
-
-<!-- **Crawling Data**  
-   - Collect data from various sources, including existing datasets and Bing Search API.  
-   - Implement automated scripts to fetch text and images based on predefined keywords.  
-   - Ensure efficient and scalable data retrieval mechanisms.  
-
-**Cleaning Data**  
-   - Preprocess the collected data by removing duplicates, irrelevant content, and noise.  
-   - Standardize formats for consistency across different data sources.  
-   - Validate extracted information to ensure accuracy and reliability.  
-
-**Handling Data Enrichment**  
-   - Integrate supplementary information into the existing dataset.   
-   - Store the processed data in a well-organized **MongoDB** database.  
-
-**Building a Basic UI**  
-   - Develop a simple **ReactJS-based frontend** for data visualization and validation.   -->
 <ul>
-  <li>Designed database architecture, system infrastructure, and documentation for the chatbot.</li>
-  <li>Developed an agent with RAG to improve chatbot retrieval and response generation.</li>
-  <li>Assisted in deploying applications to staging and production environments.</li>
-  <li>Implemented a data enrichment pipeline and a basic UI for data verification.</li>
+  <li>Designe database architecture, system infrastructure, and technical documentation for the chatbot and data pipeline.</li>
+  <li>Develope a multi-agent RAG system to enhance chatbot query processing and data retrieval efficiency.</li>
+  <li>Implemente a data pipeline following the Medallion architecture for efficient data processing.</li>
+  <li>Assisted in building CI/CD pipelines using GitHub Actions to automate testing and deployment.</li>
+  <li>Supporte the deployment of applications to staging and production environments.</li>
 </ul>
 
 <h2 id="technology-stack"><strong>Technology Stack</strong></h2>
-<!-- - **Python** – Core language for data processing and API integration.  
-- **Bing Search API** – Source for retrieving supplementary text and images.  
-- **MongoDB** – Database for storing enriched data.  
-- **Airflow** – Workflow automation and task scheduling.  
-- **Docker** – Containerization for deployment flexibility.  
-- **ReactJS** – Frontend for verifying data.  
-- **Azure (ContainerApp)**: Platform for hosting containers.  -->
 <ul>
-  <li>Python, Bing Search API, MongoDB, Airflow, Docker, ReactJs, Azure (Container App, Cloud Storage, AI Search, Azure OpenAI)</li>
+  <li>Python, Docker, Airflow, PostgreSQL, GCP (Cloud Storage, Locker), Azure (Container App, AI Search, Storage Account)</li>
 </ul>
+
+<!-- - **Python**: Core language used for data processing and scripting.
+- **Docker**: Containerization of the system for easy deployment and scalability.
+- **Airflow**: Task scheduling and orchestration for automated workflows.
+- **PostgreSQL**: Relational database for storing and querying broker data.
+- **GCP (Cloud Storage, Locker)**: Cloud services for secure and scalable data storage.
+- **Azure (ContainerApp)**: Platform for hosting containers.  -->
 
 <h2 id="tool-management-and-team-size"><strong>Tool Management and Team Size</strong>:</h2>
 <ul>
   <li><strong>Tool Management</strong>: Jira, Github</li>
   <li><strong>Team Size</strong>: 4</li>
 </ul>
-
 
 
         
@@ -385,11 +342,11 @@ In many applications, chatbot performance heavily depends on the richness and ac
 <section class="page__share">
   
 
-  <a href="https://x.com/intent/post?text=http://localhost:4000/portfolio/portfolio-5/" class="btn btn--x" title="Share on X"><i class="fab fa-x-twitter" aria-hidden="true"></i><span> X (formerly Twitter)</span></a>
+  <a href="https://x.com/intent/post?text=http://localhost:4000/project/project-4/" class="btn btn--x" title="Share on X"><i class="fab fa-x-twitter" aria-hidden="true"></i><span> X (formerly Twitter)</span></a>
 
-  <a href="https://www.facebook.com/sharer/sharer.php?u=http://localhost:4000/portfolio/portfolio-5/" class="btn btn--facebook" title="Share on Facebook"><i class="fab fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
+  <a href="https://www.facebook.com/sharer/sharer.php?u=http://localhost:4000/project/project-4/" class="btn btn--facebook" title="Share on Facebook"><i class="fab fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
 
-  <a href="https://www.linkedin.com/shareArticle?mini=true&url=http://localhost:4000/portfolio/portfolio-5/" class="btn btn--linkedin" title="Share on LinkedIn"><i class="fab fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
+  <a href="https://www.linkedin.com/shareArticle?mini=true&url=http://localhost:4000/project/project-4/" class="btn btn--linkedin" title="Share on LinkedIn"><i class="fab fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
 </section> -->
 
 
@@ -398,11 +355,10 @@ In many applications, chatbot performance heavily depends on the richness and ac
 
   <nav class="pagination">
     
-      <a href="http://localhost:4000/portfolio/portfolio-4/" class="pagination--pager" title="InsightFund AI: Data Lakehouse &amp; Chatbot for Investment Funds
-">Previous</a>
+      <a href="#" class="pagination--pager disabled">Previous</a>
     
     
-      <a href="http://localhost:4000/portfolio/portfolio-6/" class="pagination--pager" title="Thesis Graduation
+      <a href="http://localhost:4000/project/project-5/" class="pagination--pager" title="SmartChat: AI Chatbot for Tourism &amp; Education
 ">Next</a>
     
   </nav>

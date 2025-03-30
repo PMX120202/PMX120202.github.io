@@ -19,7 +19,7 @@
 
 
 
-<title>InsightFund AI: Data Lakehouse &amp; Chatbot for Investment Funds - General Information</title>
+<title>Thesis Graduation - General Information</title>
 
 
 
@@ -29,15 +29,15 @@
 
 <meta property="og:locale" content="vi-VN">
 <meta property="og:site_name" content="General Information">
-<meta property="og:title" content="InsightFund AI: Data Lakehouse &amp; Chatbot for Investment Funds">
+<meta property="og:title" content="Thesis Graduation">
 
 
-  <link rel="canonical" href="http://localhost:4000/portfolio/portfolio-4/">
-  <meta property="og:url" content="http://localhost:4000/portfolio/portfolio-4/">
+  <link rel="canonical" href="http://localhost:4000/project/project-6/">
+  <meta property="og:url" content="http://localhost:4000/project/project-6/">
 
 
 
-  <meta property="og:description" name="description" content="  Description: The project aims to automate the aggregation of broker data from multiple sources. It builds an automated pipeline to collect, process, and store data efficiently. Additionally, multi-agent systems are integrated to answer customer queries based on provided data and directly query the database for real-time information retrieval.  Technologies: Python, Docker, Airflow, PostgreSQL, GCP (Cloud Storage, Locker, Cloud Composer), Azure (ContainerApp)">
+  <meta property="og:description" name="description" content="  Purpose: Traffic forecasting is the process of estimating traffic flow on routes and intersections in a transportation system. The goal  of this prediction is to provide detailed and accurate information about traffic conditions, helping urban managers and drivers make  smart decisions.  Description: Proposed a Traffic Forecasting Beats-ODE model with N-Beats blocks and MTGODE sublayers integrated into the  model to improve traffic prediction. Stacked convolutional ODE blocks are used to learn temporal features, and graph convolutional  ODE blocks are applied to learn spatial features. The use of ODE helps information flow from one layer to another continuously,  increasing the accuracy of the model.  Technologies: Python, PyTorch, Scikit-learn, Numpy, Pandas, Folium, Matplotlib">
 
 
 
@@ -136,7 +136,7 @@
             <li class="masthead__menu-item"><a href="http://localhost:4000/experience/">Professional Experience</a></li>
           
             
-            <li class="masthead__menu-item"><a href="http://localhost:4000/portfolio/">Project</a></li>
+            <li class="masthead__menu-item"><a href="http://localhost:4000/project/">Project</a></li>
           
             
             <li class="masthead__menu-item"><a href="http://localhost:4000/skill/">Skills</a></li>
@@ -218,8 +218,6 @@
       <!-- Font Awesome icons / Social media -->
       
       
-        <li><a href="https://www.facebook.com/minh.xuan.phan.729800"><i class="fab fa-fw fa-facebook-f icon-pad-right" aria-hidden="true"></i>Facebook</a></li>
-      
             
       
                   
@@ -253,15 +251,15 @@
 
 
   <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
-    <meta itemprop="headline" content="InsightFund AI: Data Lakehouse &amp; Chatbot for Investment Funds">
-    <meta itemprop="description" content="  Description: The project aims to automate the aggregation of broker data from multiple sources. It builds an automated pipeline to collect, process, and store data efficiently. Additionally, multi-agent systems are integrated to answer customer queries based on provided data and directly query the database for real-time information retrieval.  Technologies: Python, Docker, Airflow, PostgreSQL, GCP (Cloud Storage, Locker, Cloud Composer), Azure (ContainerApp)">
+    <meta itemprop="headline" content="Thesis Graduation">
+    <meta itemprop="description" content="  Purpose: Traffic forecasting is the process of estimating traffic flow on routes and intersections in a transportation system. The goal  of this prediction is to provide detailed and accurate information about traffic conditions, helping urban managers and drivers make  smart decisions.  Description: Proposed a Traffic Forecasting Beats-ODE model with N-Beats blocks and MTGODE sublayers integrated into the  model to improve traffic prediction. Stacked convolutional ODE blocks are used to learn temporal features, and graph convolutional  ODE blocks are applied to learn spatial features. The use of ODE helps information flow from one layer to another continuously,  increasing the accuracy of the model.  Technologies: Python, PyTorch, Scikit-learn, Numpy, Pandas, Folium, Matplotlib">
     
     
 
     <div class="page__inner-wrap">
       
         <header>
-          <h1 class="page__title" itemprop="headline">InsightFund AI: Data Lakehouse &amp; Chatbot for Investment Funds
+          <h1 class="page__title" itemprop="headline">Thesis Graduation
 </h1>
           
         
@@ -271,58 +269,37 @@
       
 
       <section class="page__content" itemprop="text">
-        <h2 id="project-context"><strong>Project Context</strong></h2>
+        <h2 id="an-interpretable-model-for-spatio-temporal-traffic-forecasting">An Interpretable Model for Spatio-Temporal Traffic Forecasting</h2>
+<h3 id="abstract">Abstract:</h3>
+<p>Traffic forecasting is the process of estimating traffic flow on roads and intersections within a transportation system. The goal of this prediction is to provide detailed and accurate information about traffic conditions, helping urban management and drivers make informed decisions. In the past decade, traffic forecasting methods have rapidly evolved, especially with the expansion of artificial intelligence. Additionally, Explainable Artificial Intelligence (XAI) aims to address the challenge of making machine learning models more transparent and interpretable. In the context of traffic forecasting, model transparency is crucial for enhancing trust among the community and users. XAI in traffic prediction enables interpretability of the modeling and forecasting processes, helping users understand why a specific prediction is made.</p>
+
+<p>Recognizing this issue, this thesis proposes a Beats-ODE model for traffic forecasting, integrating N-Beats blocks and the MTGODE submodule to improve predictive performance. In this model, stacked convolutional ODE blocks are employed to learn temporal features, while graph convolutional ODE blocks are used to capture spatial characteristics. The use of ODE allows continuous information flow between layers, enhancing model accuracy. Additionally, we integrate a traffic forecasting module with an explainability module based on mask optimization for regression tasks. This approach increases user trust in the model, as they can analyze key contributing factors and understand the reasoning behind specific predictions.</p>
+
+<p>Furthermore, we conducted experiments to evaluate our model’s accuracy against state-of-the-art methods on two datasets: METR-LA and PEMS-BAY. The results demonstrate that our proposed approach outperforms existing baseline methods.</p>
+
+<h3 id="forecasting-architecture">Forecasting Architecture</h3>
+<p><img src="/images/BeatsODE.png" /></p>
+
+<h3 id="xai-architecture">XAI Architecture</h3>
+<p><img src="/images/Dynamask.png" /></p>
+
+<h3 id="dataset">Dataset:</h3>
 <ul>
-  <li><strong>Company Project</strong>: This project is developed at <strong>AIAIVN</strong>, focusing on building an efficient data pipeline for automation and a multi-agent chatbot system.</li>
+  <li>I use the METR-LA and PEMS-BAY datasets, which can be downloaded and accessed from <a href="https://drive.google.com/drive/folders/10FOTa6HXPqX8Pf5WRoRwcFnW9BrNZEIX">Google Drive</a>.</li>
+  <li>I follow the same data preprocessing steps as described in the study by the authors of the DCRNN paper <a href="https://arxiv.org/pdf/1707.01926.pdf">DCRNN</a>.</li>
 </ul>
 
-<h2 id="acchitecture"><strong>Acchitecture</strong></h2>
+<h3 id="results">Results:</h3>
 <ul>
-  <li>
-    <p><strong>Pipeline</strong>
-<img src="/images/xstar_pipeline.png" /></p>
-  </li>
-  <li>
-    <p><strong>Chatbot</strong>
-<img src="/images/multi_agent.png" /></p>
-  </li>
+  <li>Traffic Forecasting
+<img src="/images/METR.jpg" />
+<img src="/images/PEMS.jpg" /></li>
+  <li>XAI</li>
 </ul>
 
-<h2 id="description"><strong>Description</strong></h2>
-<p>The project includes the following key processes:</p>
-<ol>
-  <li><strong>Data Collection &amp; Aggregation</strong>: Automatically pulling data from various broker platforms.</li>
-  <li><strong>Data Storage</strong>: Organizing the collected data into a structured database.</li>
-  <li><strong>Chatbot with Multi-Agent</strong>: Allowing customer queries to be answered by accessing the database in real-time.</li>
-  <li><strong>Cloud Infrastructure</strong>: Ensuring scalability and accessibility of the system through GCP and Azure cloud services.</li>
-</ol>
+<p><img src="/images/XAI.jpg" /></p>
 
-<h2 id="responsibilities"><strong>Responsibilities</strong></h2>
-<ul>
-  <li>Designe database architecture, system infrastructure, and technical documentation for the chatbot and data pipeline.</li>
-  <li>Develope a multi-agent RAG system to enhance chatbot query processing and data retrieval efficiency.</li>
-  <li>Implemente a data pipeline following the Medallion architecture for efficient data processing.</li>
-  <li>Assisted in building CI/CD pipelines using GitHub Actions to automate testing and deployment.</li>
-  <li>Supporte the deployment of applications to staging and production environments.</li>
-</ul>
-
-<h2 id="technology-stack"><strong>Technology Stack</strong></h2>
-<ul>
-  <li>Python, Docker, Airflow, PostgreSQL, GCP (Cloud Storage, Locker), Azure (Container App, AI Search, Storage Account)</li>
-</ul>
-
-<!-- - **Python**: Core language used for data processing and scripting.
-- **Docker**: Containerization of the system for easy deployment and scalability.
-- **Airflow**: Task scheduling and orchestration for automated workflows.
-- **PostgreSQL**: Relational database for storing and querying broker data.
-- **GCP (Cloud Storage, Locker)**: Cloud services for secure and scalable data storage.
-- **Azure (ContainerApp)**: Platform for hosting containers.  -->
-
-<h2 id="tool-management-and-team-size"><strong>Tool Management and Team Size</strong>:</h2>
-<ul>
-  <li><strong>Tool Management</strong>: Jira, Github</li>
-  <li><strong>Team Size</strong>: 4</li>
-</ul>
+<p><strong>Repo:</strong> <a href="https://github.com/PMX120202/GraduationThesis">Github</a>.</p>
 
 
         
@@ -344,11 +321,11 @@
 <section class="page__share">
   
 
-  <a href="https://x.com/intent/post?text=http://localhost:4000/portfolio/portfolio-4/" class="btn btn--x" title="Share on X"><i class="fab fa-x-twitter" aria-hidden="true"></i><span> X (formerly Twitter)</span></a>
+  <a href="https://x.com/intent/post?text=http://localhost:4000/project/project-6/" class="btn btn--x" title="Share on X"><i class="fab fa-x-twitter" aria-hidden="true"></i><span> X (formerly Twitter)</span></a>
 
-  <a href="https://www.facebook.com/sharer/sharer.php?u=http://localhost:4000/portfolio/portfolio-4/" class="btn btn--facebook" title="Share on Facebook"><i class="fab fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
+  <a href="https://www.facebook.com/sharer/sharer.php?u=http://localhost:4000/project/project-6/" class="btn btn--facebook" title="Share on Facebook"><i class="fab fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
 
-  <a href="https://www.linkedin.com/shareArticle?mini=true&url=http://localhost:4000/portfolio/portfolio-4/" class="btn btn--linkedin" title="Share on LinkedIn"><i class="fab fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
+  <a href="https://www.linkedin.com/shareArticle?mini=true&url=http://localhost:4000/project/project-6/" class="btn btn--linkedin" title="Share on LinkedIn"><i class="fab fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
 </section> -->
 
 
@@ -357,11 +334,11 @@
 
   <nav class="pagination">
     
-      <a href="#" class="pagination--pager disabled">Previous</a>
+      <a href="http://localhost:4000/project/project-5/" class="pagination--pager" title="SmartChat: AI Chatbot for Tourism &amp; Education
+">Previous</a>
     
     
-      <a href="http://localhost:4000/portfolio/portfolio-5/" class="pagination--pager" title="SmartChat: AI Chatbot for Tourism &amp; Education
-">Next</a>
+      <a href="#" class="pagination--pager disabled">Next</a>
     
   </nav>
 

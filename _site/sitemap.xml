@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-<loc>http://localhost:4000/portfolio/portfolio-4/</loc>
+<loc>http://localhost:4000/project/project-4/</loc>
 </url>
 <url>
-<loc>http://localhost:4000/portfolio/portfolio-5/</loc>
+<loc>http://localhost:4000/project/project-5/</loc>
 </url>
 <url>
-<loc>http://localhost:4000/portfolio/portfolio-6/</loc>
+<loc>http://localhost:4000/project/project-6/</loc>
 </url>
 <url>
 <loc>http://localhost:4000/publication/2009-10-01-paper-title-number-1</loc>
@@ -59,7 +59,7 @@
 <loc>http://localhost:4000/page-archive/</loc>
 </url>
 <url>
-<loc>http://localhost:4000/portfolio/</loc>
+<loc>http://localhost:4000/project/</loc>
 </url>
 <url>
 <loc>http://localhost:4000/publications/</loc>

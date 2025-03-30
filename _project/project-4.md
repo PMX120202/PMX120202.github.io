@@ -2,7 +2,7 @@
 title: "InsightFund AI: Data Lakehouse & Chatbot for Investment Funds"
 excerpt: |
     - **Description:** The project aims to automate the aggregation of broker data from multiple sources. It builds an automated pipeline to collect, process, and store data efficiently. Additionally, multi-agent systems are integrated to answer customer queries based on provided data and directly query the database for real-time information retrieval.
-    - **Technologies:** Python, Docker, Airflow, PostgreSQL, GCP (Cloud Storage, Locker, Cloud Composer), Azure (ContainerApp)
+    - **Technologies:** Python, Docker, Airflow, PostgreSQL, GCP, Azure 
 collection: portfolio
 ---
 

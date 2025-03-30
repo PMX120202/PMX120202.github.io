@@ -4,7 +4,7 @@ title: "SmartChat: AI Chatbot for Tourism & Education"
 excerpt: |
     - **Purpose:** Enhancing existing data by supplementing additional information and images to improve chatbot training data for more accurate and informative responses.  
     - **Description:**  This project enriches data by leveraging Bing Search to fetch supplementary text and images based on category-specific keywords (e.g., landmark names, operating hours, etc.). Once the relevant content is retrieved, the output is stored in a database, ensuring efficient data management and seamless integration into subsequent processes.  
-    - **Technologies:**  Python, Airflow, MongoDB, Docker, ReactJS, Azure (ContainerApp)
+    - **Technologies:**  Python, Airflow, MongoDB, Docker, ReactJS, Azure
 collection: portfolio
 ---
 
