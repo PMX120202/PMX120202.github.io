@@ -12,12 +12,13 @@ redirect_from:
 # Professional Experience
 
 ## AIAIVN - *Machine Learning Engineer - Full-time* (08/2024 - Present)  
-  - Design, implement, and optimize data processing pipelines to ensure efficiency and scalability.
-  - Develop and enhance smart chatbots to support customers in the tourism, education, and stock market industries.
-  - Build and maintain backend systems, ensuring stable integration with related services.
-  - Collaborate with technical and business teams to optimize technological solutions.
-  - Carry out tasks as assigned by superiors, ensuring progress and quality of work.
+  - Contributed to the design of databases, system architecture, build agents and documentation for **SmartChat: AI Chatbot for Tourism & Education** and the **InsightFund AI: Data Lakehouse & Chatbot for Investment Funds** projects.
+  - Implemented monitoring and logging systems to proactively detect and troubleshoot issues in production.
+  - Collaborated with developers to understand and implement system requirements.
+  - Contributed to building data warehouses through automated pipelines.
   - Developed and maintained CI/CD pipelines for test and deployment automation.
+  - Managed and maintained system operations to ensure stability and scalability.
+  - Supported the deployment of applications to staging and production environments.
   
 ---
 

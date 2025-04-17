@@ -12,6 +12,8 @@ redirect_from:
 # Certifications and Achievements
 
 ### Certifications:
+- **VSTEP**: Level 4
+- **Toeic**: 690
 - **Become a Data Analyst** (Coursera – Jul 2023)
 - **Ask Questions to Make Data-Driven Decisions** (Coursera – Mar 2023)
 - **Foundations: Data, Data, Everywhere** (Coursera – Mar 2023)
@@ -19,4 +21,4 @@ redirect_from:
 - **Data Visualization** (Kaggle – Aug 2023) 
 
 ### Scholarship:
-- **Encouragement Study Scholarship of University of Science** (1st-year, 2nd-year, and 4th-year)
+- **Encouragement Study Scholarship of University of Science** (3 semesters and graduation rewards)

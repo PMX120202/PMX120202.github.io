@@ -9,12 +9,9 @@ collection: portfolio
 ## **Project Context**
 - **Company Project**: This project is developed at **AIAIVN**, focusing on building an efficient data pipeline for automation and a multi-agent chatbot system.
 
-## **Acchitecture**
-- **Pipeline**
-<img src='/images/xstar_pipeline.png'>
+## **Architecture**
+<img src='/images/insightfund.png'>
 
-- **Chatbot**
-<img src='/images/multi_agent.png'>
 
 ## **Description**  
 The project includes the following key processes:

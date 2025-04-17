@@ -14,8 +14,8 @@ In many applications, chatbot performance heavily depends on the richness and ac
 ## **Project Context**
 - **Company Project**: This project is developed as part of **AIAIVN**. It focuses on building an efficient data enrichment pipeline for chatbot training using various data sources.
 
-## **Acchitecture**
-<img src='/images/pipeline_enrich_data.png'>
+## **Architecture**
+<img src='/images/pipelineDN.png'>
 
 
 ## **Description** 
@@ -64,7 +64,7 @@ By automating the data enrichment process, this pipeline ensures **scalability, 
 
 **Building a Basic UI**  
    - Develop a simple **ReactJS-based frontend** for data visualization and validation.   -->
-- Designed database architecture, system infrastructure, and documentation for the chatbot.
+- Participated in designing database architecture, system infrastructure, and documentation for the chatbot.
 - Developed an agent with RAG to improve chatbot retrieval and response generation.
 - Assisted in deploying applications to staging and production environments.
 - Implemented a data enrichment pipeline and a basic UI for data verification.
