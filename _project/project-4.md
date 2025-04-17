@@ -10,7 +10,7 @@ collection: portfolio
 - **Company Project**: This project is developed at **AIAIVN**, focusing on building an efficient data pipeline for automation and a multi-agent chatbot system.
 
 ## **Architecture**
-<img src='/images/insightfund.png'>
+<img src='/images/insightfundAI.png'>
 
 
 ## **Description**  
