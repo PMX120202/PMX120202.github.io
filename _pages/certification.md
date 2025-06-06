@@ -12,8 +12,6 @@ redirect_from:
 # Certifications and Achievements
 
 ### Certifications:
-- **VSTEP**: Level 4
-- **Toeic**: 690
 - **Become a Data Analyst** (Coursera – Jul 2023)
 - **Ask Questions to Make Data-Driven Decisions** (Coursera – Mar 2023)
 - **Foundations: Data, Data, Everywhere** (Coursera – Mar 2023)

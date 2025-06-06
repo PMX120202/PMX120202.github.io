@@ -30,7 +30,7 @@ redirect_from:
 
 ---
 
-## Công ty Cổ phần Đầu tư Thế Giới Di Động (MWG) - *IT Support Technician - Part-time* (10/2023 - 12/2023)
+## Mobile World Investment Corporation (MWG) - *IT Support Technician - Part-time* (10/2023 - 12/2023)
   - Respond to support requests from users.
   - Provide guidance to users on how to use software, hardware, and other technology tools.
   - Resolve issues related to operating applications.
