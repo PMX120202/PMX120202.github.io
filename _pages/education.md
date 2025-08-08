@@ -20,3 +20,4 @@ redirect_from:
   <img src="/images/certification.jpg" alt="Certification" width="70%" height="auto">
   <img src="/images/cover_cer.jpg" alt="Certification" width="45%" height="auto">
 </div> -->
+ 
