@@ -19,7 +19,7 @@ redirect_from:
   - Developed and maintained CI/CD pipelines for test and deployment automation.
   - Managed and maintained system operations to ensure stability and scalability.
   - Supported the deployment of applications to staging and production environments.
-  
+   
 ---
 
 ## Energy Solutions - *Software Engineer - Intern* (03/2024 - 06/2024)  
