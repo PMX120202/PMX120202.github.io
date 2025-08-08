@@ -38,4 +38,4 @@ Furthermore, we conducted experiments to evaluate our model’s accuracy against
 
 <img src="/images/XAI.jpg"/>
 
-**Repo:** [Github](https://github.com/PMX120202/GraduationThesis).
+**Repo:** [Github](https://github.com/pmxuan/GraduationThesis).
