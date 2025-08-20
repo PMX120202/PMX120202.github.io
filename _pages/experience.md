@@ -11,6 +11,8 @@ redirect_from:
 
 # Professional Experience
 
+## JAIST - *Laboratory Researcher - Full-time*
+
 ## AIAIVN - *Machine Learning Engineer - Full-time* (08/2024 - Present)  
   - Contributed to the design of databases, system architecture, build agents and documentation for **SmartChat: AI Chatbot for Tourism & Education** and the **InsightFund AI: Data Lakehouse & Chatbot for Investment Funds** projects.
   - Implemented monitoring and logging systems to proactively detect and troubleshoot issues in production.
